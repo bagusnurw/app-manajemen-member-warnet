@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:paddingBottom="20dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Point Blank"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgNews1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:onClick="PbSite"
+                    android:src="@drawable/news1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingBottom="20dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Black Desert Online"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:onClick="BdoSite"
+                    android:id="@+id/imgNews2"
+                    android:src="@drawable/news2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingBottom="20dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Players Unknown Battleground"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:onClick="PubgSite"
+                    android:id="@+id/imgNews3"
+                    android:src="@drawable/news3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

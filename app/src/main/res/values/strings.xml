@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">App Manajemen Member</string>
+    <string name="create_account"><font color="#00ff00">text</font></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="twitter">_@example</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+
+    <array name="prodi">
+        <item>Point Blank</item>
+        <item>Dota 2</item>
+        <item>Overwatch</item>
+        <item>PUBG</item>
+        <item>Black Desert</item>
+        <item>Monster Hunter</item>
+    </array>
+</resources>
